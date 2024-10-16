@@ -76,6 +76,12 @@ This version breaks down the process into clear, beginner-friendly steps with a 
 - 📊 Include task priority levels.
 - 🛡️ Improve input validation and error handling for a better user experience.
 
+## 👤 Dummy Login Credentials
+For testing purposes, a dummy login system is provided. Use the following credentials:
+
+- *Email*: testuser@example.com
+- *Password*: test@123
+
 ## 👥 Contributors
 - [Belix A ](https://github.com/belix2228)
 
