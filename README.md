@@ -81,6 +81,74 @@ For testing purposes, a dummy login system is provided. Use the following creden
 
 - *Email*: testuser@example.com
 - *Password*: test@123
+To display sample output in your GitHub repository for your **Task Manager CLI Application**, you can include a section in your `README.md` that shows what the command-line output would look like when a user interacts with your application. Here's an example of how you can structure that section:
+
+### Sample Output
+
+```markdown
+## 📋 Sample Output
+
+### 1. Adding a Task
+```
+Task Manager
+------------
+1. Add Task
+2. View Tasks
+3. Complete Task
+4. Delete Task
+5. Exit
+Select an option: 1
+
+Enter task title: Buy groceries
+Task added successfully!
+```
+
+### 2. Viewing Tasks
+```
+Task Manager
+------------
+1. Add Task
+2. View Tasks
+3. Complete Task
+4. Delete Task
+5. Exit
+Select an option: 2
+
+Tasks:
+[1] Buy groceries (Incomplete)
+```
+
+### 3. Completing a Task
+```
+Task Manager
+------------
+1. Add Task
+2. View Tasks
+3. Complete Task
+4. Delete Task
+5. Exit
+Select an option: 3
+
+Enter task ID to mark as complete: 1
+Task marked as complete!
+```
+
+### 4. Deleting a Task
+```
+Task Manager
+------------
+1. Add Task
+2. View Tasks
+3. Complete Task
+4. Delete Task
+5. Exit
+Select an option: 4
+
+Enter task ID to delete: 1
+Task deleted successfully!
+```
+
+This **Sample Output** section gives users an idea of what the application will look like when they interact with it, helping them understand how it works without needing to run it themselves first. You can copy and paste this section directly into your `README.md`.
 
 ## 👥 Contributors
 - [Belix A ](https://github.com/belix2228)
