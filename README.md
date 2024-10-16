@@ -62,10 +62,6 @@ After running the command, you’ll see a simple menu in your terminal. Here’s
 - Press `4` to **Delete a task**
 - Press `5` to **Exit the application**
 
-Enjoy managing your tasks! 🎉
-
-This version breaks down the process into clear, beginner-friendly steps with a straightforward explanation for each. It also includes helpful actions users can take once the application is running.
-
 ## 🗂️ Project Structure
 - `task_manager.py`: The main script containing task management functionality.
 - `tasks.json`: The file where tasks are stored (created automatically).
