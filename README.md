@@ -87,7 +87,6 @@ For testing purposes, a dummy login system is provided. Use the following creden
 
 ## 📋 Sample Output
 ### 1. Adding a Task
-```
 Task Manager
 ------------
 1. Add Task
@@ -115,10 +114,10 @@ Select an option:
 
 Tasks:
 [1] test1 (Incomplete)
-```
+
 
 ### 3. Completing a Task
-```
+
 Task Manager
 ------------
 1. Add Task
@@ -132,10 +131,10 @@ Select an option: 4
 
 Enter task ID to mark as complete: 2
 Task marked as complete!
-```
+
 
 ### 4. Deleting a Task
-```
+
 Task Manager
 ------------
 1. Add Task
