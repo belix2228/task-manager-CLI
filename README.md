@@ -8,7 +8,7 @@ The Task Manager CLI Application is a simple command-line tool built in Python t
  4.Delete tasks
  5.Save and load tasks from a file using JSON
  
-##Features
+## Features
 **Add Task**: Add new tasks with a unique ID and title
 **View Tasks**: Display all tasks, showing their ID, title, and completion status.
 **Complete Task**: Mark a task as completed.
