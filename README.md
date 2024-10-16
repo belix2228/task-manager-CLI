@@ -84,7 +84,7 @@ For testing purposes, a dummy login system is provided. Use the following creden
 ![Screenshot 2024-10-16 143403](https://github.com/user-attachments/assets/3ca71945-50ac-44e1-a3e6-f9d5f61b0575)
 
 
-```markdown
+
 ## 📋 Sample Output
 ### 1. Adding a Task
 ```
