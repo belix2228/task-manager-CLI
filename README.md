@@ -16,12 +16,12 @@ The Task Manager CLI Application is a simple command-line tool built in Python t
  ● **Save and Load**:  Save tasks to a tasks.json file and load them automatically when the program starts.
 
 
-📝 Task Manager CLI Application
-📖 Project Description
-The Task Manager CLI Application is a Python-based command-line tool that helps users manage their tasks effectively. You can:
+# 📝 Task Manager CLI Application
+##📖 Project Description
+- The Task Manager CLI Application is a Python-based command-line tool that helps users manage their tasks effectively. You can:
 
-➕ Add tasks
-👀 View all tasks with their completion status
+- ➕ Add tasks
+- 👀 View all tasks with their completion status
 ✔️ Mark tasks as completed
 🗑️ Delete tasks
 💾 Save and load tasks to/from a JSON file
