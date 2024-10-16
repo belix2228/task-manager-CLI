@@ -84,31 +84,36 @@ For testing purposes, a dummy login system is provided. Use the following creden
 To display sample output in your GitHub repository for your **Task Manager CLI Application**, you can include a section in your `README.md` that shows what the command-line output would look like when a user interacts with your application. Here's an example of how you can structure that section:
 
 ### Sample Output
+## login with dummy email and password
+![Screenshot 2024-10-16 143403](https://github.com/user-attachments/assets/3ca71945-50ac-44e1-a3e6-f9d5f61b0575)
+
 
 ```markdown
 ## 📋 Sample Output
-
 ### 1. Adding a Task
 ```
 Task Manager
 ------------
 1. Add Task
 2. View Tasks
-3. Complete Task
-4. Delete Task
+3. Delete Task
+4. Complete Task
 5. Exit
 Select an option: 1
 
+![Screenshot 2024-10-16 143500](https://github.com/user-attachments/assets/02f55a2b-a7ce-4f37-8217-b8ea8442a577)
+
+
 Enter task title: test1
 Task added successfully!
-![Screenshot 2024-10-16 143403](https://github.com/user-attachments/assets/3ca71945-50ac-44e1-a3e6-f9d5f61b0575)
+
 
 Task Manager
 ------------
 1. Add Task
 2. View Tasks
-3. Complete Task
-4. Delete Task
+3. Delete Task
+4. Complete Task
 5. Exit
 Select an option: 
 
@@ -122,12 +127,14 @@ Task Manager
 ------------
 1. Add Task
 2. View Tasks
-3. Complete Task
-4. Delete Task
+3. Delete Task
+4. Complete Task
 5. Exit
-Select an option: 3
+Select an option: 4
 
-Enter task ID to mark as complete: 1
+![Screenshot 2024-10-16 143519](https://github.com/user-attachments/assets/38d8b3f0-41e3-4de4-a539-9c5158cd4d28)
+
+Enter task ID to mark as complete: 2
 Task marked as complete!
 ```
 
@@ -137,12 +144,12 @@ Task Manager
 ------------
 1. Add Task
 2. View Tasks
-3. Complete Task
-4. Delete Task
+3. Delete Task
+4. Completed Task
 5. Exit
 Select an option: 4
-
-Enter task ID to delete: 1
+![Screenshot 2024-10-16 145514](https://github.com/user-attachments/assets/23713a7f-88c6-4bfb-8789-5736053cfa2c)
+Enter task ID to delete: 2
 Task deleted successfully!
 `
 
