@@ -1,5 +1,9 @@
 import json
 
+# Dummy credentials for testing
+DUMMY_EMAIL = "testuser@example.com"
+DUMMY_PASSWORD = "test@123"
+
 # Task Class
 class Task:
     def __init__(self, task_id, title, completed=False):
@@ -21,6 +25,7 @@ class Task:
     def __repr__(self):
         status = "Completed" if self.completed else "Not Completed"
         return f"[{self.id}] {self.title} - {status}"
+
 tasks = []
 
 # Add a new task
@@ -48,9 +53,10 @@ def complete_task(task_id):
     for task in tasks:
         if task.id == task_id:
             task.completed = True
-            print(f"Task '{task.title}' Marked as completed.")
+            print(f"Task '{task.title}' marked as completed.")
             return
-    print(f"No task with ID {task_id} Found.")
+    print(f"No task with ID {task_id} found.")
+
 # Save tasks to a file (tasks.json)
 def save_tasks():
     with open('tasks.json', 'w') as file:
@@ -67,38 +73,56 @@ def load_tasks():
             print("Tasks loaded from tasks.json.")
     except FileNotFoundError:
         print("No previous tasks found, starting fresh.")
+
+# Show menu
 def show_menu():
     print("\nTask Manager")
     print("1. Add Task")
     print("2. View Tasks")
     print("3. Delete Task")
     print("4. Mark Task as Complete")
-    print("5. Exit Application")
+    print("5. Save and Exit")
+
+# Basic login system
+def login():
+    print("Please log in:")
+    email = input("Email: ")
+    password = input("Password: ")
+
+    if email == DUMMY_EMAIL and password == DUMMY_PASSWORD:
+        print("Login successful!")
+        return True
+    else:
+        print("Invalid credentials. Please try again.")
+        return False
 
 def main():
-    load_tasks()  # Load tasks at the start of the program
+    if login():
+        load_tasks()  # Load tasks at the start of the program
 
-    while True:
-        show_menu()
-        choice = input("Enter your choice: ")
+        while True:
+            show_menu()
+            choice = input("Enter your choice: ")
 
-        if choice == "1":
-            title = input("Enter task title: ")
-            add_task(title)
-        elif choice == "2":
-            view_tasks()
-        elif choice == "3":
-            task_id = int(input("Enter task ID to delete: "))
-            delete_task(task_id)
-        elif choice == "4":
-            task_id = int(input("Enter task ID to mark as complete: "))
-            complete_task(task_id)
-        elif choice == "5":
-            save_tasks()
-            print("Exiting the program.")
-            break
-        else:
-            print("Invalid option. Please try again.")
+            if choice == "1":
+                title = input("Enter task title: ")
+                add_task(title)
+            elif choice == "2":
+                view_tasks()
+            elif choice == "3":
+                task_id = int(input("Enter task ID to delete: "))
+                delete_task(task_id)
+            elif choice == "4":
+                task_id = int(input("Enter task ID to mark as complete: "))
+                complete_task(task_id)
+            elif choice == "5":
+                save_tasks()
+                print("Exiting the program.")
+                break
+            else:
+                print("Invalid option. Please try again.")
+    else:
+        print("Access denied. Exiting program.")
 
 if __name__ == "__main__":
     main()
