@@ -150,7 +150,6 @@ Enter task ID to delete: 2
 Task deleted successfully!
 
 
-This **Sample Output** section gives users an idea of what the application will look like when they interact with it, helping them understand how it works without needing to run it themselves first. You can copy and paste this section directly into your `README.md`.
 
 ## 👥 Contributors
 - [Belix A ](https://github.com/belix2228)
