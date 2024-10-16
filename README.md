@@ -143,10 +143,12 @@ Task Manager
 4. Completed Task
 5. Exit
 Select an option: 4
+
 ![Screenshot 2024-10-16 145514](https://github.com/user-attachments/assets/23713a7f-88c6-4bfb-8789-5736053cfa2c)
+
 Enter task ID to delete: 2
 Task deleted successfully!
-`
+
 
 This **Sample Output** section gives users an idea of what the application will look like when they interact with it, helping them understand how it works without needing to run it themselves first. You can copy and paste this section directly into your `README.md`.
 
