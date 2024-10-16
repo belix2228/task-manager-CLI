@@ -81,7 +81,7 @@ For testing purposes, a dummy login system is provided. Use the following creden
 
 - *Email*: testuser@example.com
 - *Password*: test@123
-To display sample output in your GitHub repository for your **Task Manager CLI Application**, you can include a section in your `README.md` that shows what the command-line output would look like when a user interacts with your application. Here's an example of how you can structure that section:
+
 
 ### Sample Output
 ## login with dummy email and password
