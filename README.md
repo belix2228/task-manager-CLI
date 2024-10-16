@@ -9,11 +9,8 @@ The Task Manager CLI Application is a simple command-line tool built in Python t
  5.Save and load tasks from a file using JSON
  
 ## Features
-(.)**Add Task**: Add new tasks with a unique ID and title
-**View Tasks**: Display all tasks, showing their ID, title, and completion status.
-**Complete Task**: Mark a task as completed.
-**Delete Task**: Remove a task from the task list by ID
-**Save/Load Tasks**: Save tasks to a tasks.json file and load them automatically when the program starts.
-- ● Task 1: Add a task to the list.
-- ● Task 2: View all tasks with status.
-- ● Task 3: Mark a task as complete.
+- ● **Add Task**: Add new tasks with a unique ID and title
+- ● **View Task**: Display all tasks, showing their ID, title, and completion status.
+- ● **Complete Task**: Mark a task as complete.
+- ● **Delete Task**:  Remove a task from the task list by ID
+- ● **Save and Load**:  Save tasks to a tasks.json file and load them automatically when the program starts.
