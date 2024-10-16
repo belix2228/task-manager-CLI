@@ -99,12 +99,10 @@ Task Manager
 5. Exit
 Select an option: 1
 
-Enter task title: Buy groceries
+Enter task title: test1
 Task added successfully!
-```
+![Screenshot 2024-10-16 143403](https://github.com/user-attachments/assets/3ca71945-50ac-44e1-a3e6-f9d5f61b0575)
 
-### 2. Viewing Tasks
-```
 Task Manager
 ------------
 1. Add Task
@@ -112,10 +110,10 @@ Task Manager
 3. Complete Task
 4. Delete Task
 5. Exit
-Select an option: 2
+Select an option: 
 
 Tasks:
-[1] Buy groceries (Incomplete)
+[1] test1 (Incomplete)
 ```
 
 ### 3. Completing a Task
@@ -146,7 +144,7 @@ Select an option: 4
 
 Enter task ID to delete: 1
 Task deleted successfully!
-```
+`
 
 This **Sample Output** section gives users an idea of what the application will look like when they interact with it, helping them understand how it works without needing to run it themselves first. You can copy and paste this section directly into your `README.md`.
 
