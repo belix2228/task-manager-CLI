@@ -17,6 +17,7 @@ The **Task Manager CLI Application** is a Python-based command-line tool that he
 
 ## 🛠️ Requirements
 - 🐍 Python 3.x
+- 💻 PyCharm or Visual Studio Code 
 
 ## 🚀 How to Run
 1. Clone this repository:
