@@ -42,6 +42,6 @@ The **Task Manager CLI Application** is a Python-based command-line tool that he
 - 🛡️ Improve input validation and error handling for a better user experience.
 
 ## 👥 Contributors
-- [Your Name](https://github.com/yourusername)
+- [Belix A ](https://github.com/belix2228)
 
 
