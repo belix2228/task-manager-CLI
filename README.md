@@ -23,7 +23,7 @@ The **Task Manager CLI Application** is a Python-based command-line tool that he
 1. Clone this repository:
    ```bash
    https://github.com/belix2228/task-manager-CLI
-   cd task_manager_CLI
+   cd task-manager-CLI
    ```
 2. Run the application:
    ```bash
